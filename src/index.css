@@ -1,0 +1,26 @@
+@import url("./vendor/normalize.css");
+@import url("./vendor/fonts.css");
+
+:root {
+  --color-primary: #F4F4F6;
+  --color-dark: #1D3354;
+  --color-gray: #84828F;
+}
+
+body {
+  margin: 0;
+  font-family: "Inter-Regular", sans-serif;
+  background-color: var(--color-primary);
+  color: var(--color-dark);
+}
+
+a {
+  text-decoration: none;
+  color: inherit;
+}
+.title {
+  font-family: "Inter-Black", sans-serif;
+}
+
+
+
